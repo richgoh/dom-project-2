@@ -1,0 +1,40 @@
+/*Styliser avec CSS */
+
+/* 1.Stylisation de la classe "container" pour centrer son contenu horizontalement
+ et donnez-lui une marge supérieure pour l'espacement.*/
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1{
+    color: #141da5;
+    font-size: 50px;
+}
+
+/*Stylisation de l’identifiant "color-box" avec une largeur 
+et une hauteur fixes et définissez une couleur d’arrière-plan par défaut.*/
+
+#color-box {
+    width: 100%;
+    height: 300px;
+    background-color: #ccc; /* Couleur par defaut de la boite */
+}
+
+/*Style the change-color-btn id to make it visually appealing and easily clickable.*/
+
+#change-color-btn{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #141da5;
+    color: #fff;
+    border: none;
+    cursor: pointer ;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#change-color-btn:hover{
+    background-color: rgb(113, 147, 208);
+}
